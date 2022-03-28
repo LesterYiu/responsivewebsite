@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitworks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./images/badge.png">
+</head>
+<body>
+
+    <header id="home">
+        <div class="wrapper">
+            <nav>
+                <div class="navResizeFlex">
+                    <ul class="flexContainer">
+                        <div class="leftNav">
+                            <li class="logo">fitworks</li>
+                        </div>
+                        <div class="rightNav">
+                            <li><a href="#aboutUs">about</a></li>
+                            <li><a href="#info">philosophy</a></li>
+                            <li><a href="#signUp">join us</a></li>
+                            <li><a href="#info">classes</a></li>
+                        </div>
+                    </ul>
+                        <label for="toggle"tabindex="1">Menu</label>
+                        <input type="checkbox" id="toggle" name="toggle">
+
+                        <ul class="slidingMenu">
+                            <div class="slidingNav">
+                                <li><a href="#home">home</a></li>
+                                <li><a href="#aboutUs">about</a></li>
+                                <li><a href="#info">philosophy</a></li>
+                                <li><a href="#signUp">join us</a></li>
+                                <li><a href="#info">classes</a></li>
+                            </div>
+                            <div class="slidingTrademark">
+                                <p class="trademark">Created at Juno College of Technology by Lester Yiu </p>
+                                <a href="https://github.com/LesterYiu" target="_blank" rel="noopener" class="trademarkLink" tabindex="1">
+                                    <img class="selfPromo" src="./images/github.png" alt=" ">
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+            </nav>
+            <div class="flexContainer flexHeader">
+                <h1>everything fitness space</h1>
+                <div class="container">
+                    <img class="headerImage" src="./images/header.jpg" alt="An image of a man intensively exercising">
+                    <img class="logoAbsolute" src="./images/badge.png" alt=" ">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <section class="aboutUs" id="aboutUs">
+            <div class="wrapper">
+                <div class="flexContainer aboutResize">
+                    <div class="aboutLeft">
+                        <h2>our space</h2>
+                        <p>Manifestation spirit guides quartz, Reiki practitioner stones oracle peace healer goddess sage charms. Energy healing pendulum meditate divination practitioner candles chanting massage Buddha. Divine Light Worker herbalist, lavender love compassion practitioner pendulum massage fibonacci sage. Dance peace angels awakening. Love Flower of Life tarot shamantic.</p>
+                        <button><a href="#signUp">Let's Chat</a></button>
+                        <img class="slashes" src="./images/slashes.svg" alt=" ">
+                    </div>
+                    <div class="aboutRight">
+                        <div class="container aboutImageFlex">
+                            <img class="aboutImage" src="./images/image1.jpg" alt="An image of a woman exercising with weights">
+                        </div>
+                        <div class="absoluteContainer">
+                            <p class="absoluteParagraph">15,000+ happy users</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info" id="info">
+            <div class="wrapper">
+                <div class="infoLeft">
+                    <h2>exercises</h2>
+                    <p>Manifestation spirit guides quartz, Reiki practitioner stones oracle peace healer goddess sage charms.</p>
+                    <img class="slashes" src="./images/slashes.svg" alt=" ">
+                </div>
+                <ul>
+                    <div class="topInfoContainer flexContainer">
+                        <li class="infoImageOne infoImage" tabindex="1">
+                            <h3>running</h3>
+                        </li>
+                        <li class="infoImageTwo infoImage" tabindex="1">
+                            <h3>yoga</h3>
+                        </li>
+                    </div>
+                    <div class="bottomInfoContainer flexContainer">
+                        <li class="infoImageThree infoImage" tabindex="1">
+                            <h3>boxing</h3>
+                        </li>
+                        <li class="infoImageFour infoImage" tabindex="1">
+                            <h3>crossfit</h3>
+                        </li>
+                        <li class="infoImageFive infoImage" tabindex="1">
+                            <h3>Strength</h3>
+                        </li>
+                    </div>   
+                </ul>
+            </div>
+        </section>
+
+        <section class="signUp" id="signUp">
+            <div class="wrapper">
+                <div class="signLeft">
+                    <h2>join us today</h2>
+                    <p>Manifestation spirit guides quartz, Reiki practitioner stones oracle peace healer goddess sage charms.</p>
+                    <img class="slashes" src="./images/slashes.svg" alt=" ">
+                </div>
+
+                <form action="#" method="POST" name="joinForm" class="joinForm" >
+                    <div class="flexContainer topFormContainer">
+                        <div class="nameContainer">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" class="nameText" placeholder="Joe Apple" required>
+                        </div>
+                        <div class="emailContainer">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" class="emailInput" placeholder="StanLoona@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="messageContainer">
+                        <label for="message" >Message</label>
+                        <textarea id="message" rows="10" placeholder="Write a message here with a minimum 100 characters" required minlength="100"></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="review" id="review">
+            <div class="wrapper">
+                <div class="reviewLeft">
+                    <h2>happy members</h2>
+                    <img class="slashes" src="./images/slashes.svg" alt=" ">
+                </div>
+                <div class="reviewContainer flexContainer">
+                    <blockquote>FITWORKS studio transformed my philosophy on health and fitness, they truly changed my lifestyle for the best.</blockquote>
+                    <div class="bottomReviewContainer flexContainer">
+                        <div class="bottomLeftReview flexContainer">
+                            <img class="reviewPicture" src="./images/image10.jpg" alt="An image of Jaime Jorge, Founder of the RENTEA company ">
+                            <div class="founderContainer">
+                                <p class="founderName">Jaime Jorge</p>
+                                <p>Founder, RENTEA</p>
+                            </div>
+                        </div>
+                        <img class="arrow" src="./images/arrow.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="designSection">
+            <div class="wrapper">
+                <div class="containerDesign">
+                    <img class="designImage" src="./images/image8.jpg" alt=" ">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper footerOverall">
+            <ul class="flexContainer contactFooter">
+                <li>
+                    <img src="./images/badge.png" alt=" ">
+                </li>
+                <li>
+                    <address>129 Jordan Ave, Toronto, CA M22 324</address>
+                </li>
+                <li>
+                    <a href="mailto:info@spaces-studio.com">info@spaces-studio.com</a>
+                </li>
+            </ul>
+
+            <div class="footerLinkContainer">
+
+                <ul class="flexContainer footerContainer">
+                    <li class="footerTitle">
+                        <h4>Menu</h4>
+                    </li>
+                    <li>
+                        <a href="#review">about</a>
+                    </li>
+                    <li class>
+                        <a href="#aboutUs">philosophy</a>
+                    </li>
+                    <li>
+                        <a href="#signUp">join us</a>
+                    </li>
+                </ul>
+
+                <ul class="flexContainer footerContainer">
+                    <li class="footerTitle">
+                        <h4>Classes</h4>
+                    </li>
+                    <li>
+                        <a href="https://www.anytimefitness.com/tag/yoga-workouts/" target="_blank" rel="noopener">yoga</a>
+                    </li>
+                    <li>
+                        <a href="https://www.anytimefitness.com/ccc/getting-started/couch-to-5k-everything-you-need-to-know-before-stepping-on-the-treadmill/" target="_blank" rel="noopener">running</a>
+                    </li>
+                    <li>
+                        <a href="https://www.anytimefitness.com/" target="_blank" rel="noopener">crossfit</a>
+                    </li>
+                </ul>
+
+                <ul class="flexContainer footerContainer">
+                    <li class="footerTitle">
+                        <h4>Follow</h4>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/anytimefitness/feed/" target="_blank" rel="noopener">instagram</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCaifq9tPgyNcjRvCGGhqE3g" target="_blank" rel="noopener">youtube</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/AnytimeFitness" target="_blank" rel="noopener">twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerTrademark">
+                <p class="trademark">Created at Juno College of Technology by Lester Yiu </p>
+                <a href="https://github.com/LesterYiu" target="_blank" rel="noopener"><img class="selfPromo" src="./images/github.png" alt=" "></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
