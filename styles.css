@@ -1024,6 +1024,7 @@ footer img{
         display:flex;
         justify-content:space-between;
         background-color:#110732;
+        align-items:center;
     }
 
     .leftNav{
@@ -1032,11 +1033,6 @@ footer img{
 
     .rightNav{
         display:none;
-    }
-
-    .logo,
-    nav label{
-        margin:0 25px;
     }
 }
 
